@@ -314,9 +314,9 @@ public extension ObserverInterceptor {
     /**
      Observes a dispatch
      - parameter dispatchable: the type of the dispatchable to observe
-     - parameter dispatchable: a list of items to dispatch when `dispatchable` is dispatched
+     - parameter dispatchables: a list of items to dispatch when `dispatchable` is dispatched
     */
-    case onDispatch(_ dispatchablex: Dispatchable.Type, _ dispatchablex: [DispatchObserverDispatchable.Type])
+    case onDispatch(_ dispatchable: Dispatchable.Type, _ dispatchables: [DispatchObserverDispatchable.Type])
     
     /**
      When the store starts
